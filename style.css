@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111111;
+}
+
+.big_box {
+  border: 1px solid #111111;
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 10%;
+  width: 80%;
+  max-height: 500px;
+}
+
+.box {
+  border: 3px solid #333333;
+  background-color: #202020;
+  width: 250px;
+  height: 400px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.little_box {
+  border-bottom: 3px solid #333333;
+  background-color: #202020;
+  padding-bottom: 60px;
+}
+
+.animation {
+  display: block;
+  height: 50px;
+  width: 30%;
+  margin-left: 85px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
+.one {
+  background-color: rgb(253, 154, 171);
+}
+
+.two {
+  background-color: rgb(72, 72, 253);
+}
+
+.three {
+  background-color: rgb(122, 166, 249);
+}
+.animation:hover {
+  width: 100%;
+  margin: 0;
+  transition: all 1.2s;
+  opacity: 1;
+}
+
+.one:hover {
+  background: linear-gradient(
+    96deg,
+    rgba(199, 23, 23, 1) 0%,
+    rgba(253, 154, 171, 1) 50%,
+    rgba(205, 27, 201, 1) 100%
+  );
+  box-shadow: rgb(253, 154, 171) 2px 8px 2px;
+}
+
+.two:hover {
+  background: linear-gradient(
+    96deg,
+    rgba(23, 199, 46, 1) 0%,
+    rgba(72, 72, 253, 1) 50%,
+    rgba(205, 27, 27, 1) 100%
+  );
+  box-shadow: rgb(72, 72, 253) 2px 8px 2px;
+}
+
+.three:hover {
+  background: linear-gradient(
+    96deg,
+    rgba(234, 235, 26, 1) 0%,
+    rgba(122, 166, 249, 1) 50%,
+    rgba(231, 170, 0, 1) 100%
+  );
+  box-shadow: rgb(122, 166, 249) 2px 8px 2px;
+}
+
+.main_body {
+  padding-top: 50px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px;
+}
+
+button {
+  margin: 45px 70px;
+  border: 1px solid green;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+}
+
+#a {
+  background-color: rgb(253, 154, 171);
+}
+
+#b {
+  background-color: rgb(72, 72, 253);
+}
+
+#c {
+  background-color: rgb(122, 166, 249);
+}
